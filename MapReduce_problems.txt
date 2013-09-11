@@ -1,0 +1,19 @@
+
+Hadoop/MapReduce problems
+
+Hadoop in Action, Chapter 4
+
+4.2 The data is organized as a list of the form (patent, patent cited)
+
+Citing	Cited
+xyz	abc
+…	…
+
+so patent #xyz cites patent #abc. Clearly patent #xyz can also cite #def. We want to *invert* this, that is, give a list in the form (patent, patent cited by).
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:mioalter/MR.git
+git push -u origin master
